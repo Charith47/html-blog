@@ -700,30 +700,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-bottom-width: 2px;
 }
 
-@media (prefers-color-scheme: dark) {
-  .dark\:border-slate-800 {
-    --tw-border-opacity: 1;
-    border-color: rgb(30 41 59 / var(--tw-border-opacity));
-  }
+.dark .dark\:border-slate-800 {
+  --tw-border-opacity: 1;
+  border-color: rgb(30 41 59 / var(--tw-border-opacity));
+}
 
-  .dark\:bg-slate-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-  }
+.dark .dark\:bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
 
-  .dark\:bg-slate-800\/60 {
-    background-color: rgb(30 41 59 / 0.6);
-  }
+.dark .dark\:bg-slate-800\/60 {
+  background-color: rgb(30 41 59 / 0.6);
+}
 
-  .dark\:text-emerald-50 {
-    --tw-text-opacity: 1;
-    color: rgb(236 253 245 / var(--tw-text-opacity));
-  }
+.dark .dark\:text-emerald-50 {
+  --tw-text-opacity: 1;
+  color: rgb(236 253 245 / var(--tw-text-opacity));
+}
 
-  .dark\:text-emerald-400 {
-    --tw-text-opacity: 1;
-    color: rgb(52 211 153 / var(--tw-text-opacity));
-  }
+.dark .dark\:text-emerald-400 {
+  --tw-text-opacity: 1;
+  color: rgb(52 211 153 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
